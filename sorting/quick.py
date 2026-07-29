@@ -22,7 +22,7 @@ def quick_sort(arr, si, ei):
 
 
 arr = [23, 43, 12, 5, 76, 23]
-
+    
 quick_sort(arr, 0, len(arr) - 1)
 
 print(arr)
