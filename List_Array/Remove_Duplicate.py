@@ -1,3 +1,5 @@
+#  Sorted Array
+'''
 def removd_duplicate(arr):
     if len(arr) == 0:
         return 0
@@ -12,4 +14,17 @@ arr = [1,1,2,2,3,4,4]
 k = removd_duplicate(arr)
 print("k=",k)
 print(arr[:k])
+'''
         
+#  Unsorted Array
+
+def Remove_uplicate(arr):
+    result = []
+    
+    for x in arr:
+        if x not in result:
+            result.append(x)
+    return result
+arr = [3,1,2,3,4,2,5]
+print(Remove_uplicate(arr))
+    
