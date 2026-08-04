@@ -24,6 +24,7 @@ s = ["n","e","e","t"]
 print(reverseStr(s))
 """
 
+#  Optimal:
 s = ["n","e","e","t"]
 ans = reversed(s)
 print(s)
