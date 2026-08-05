@@ -41,6 +41,8 @@ class LinkedList:
 
         new_node.next = temp.next
         temp.next = new_node
+        
+    
                 
         
     def display(self):
